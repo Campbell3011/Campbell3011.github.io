@@ -1,32 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* hero background image */
 .bgimage {
     height:100vh;
     background: url("images/heroImage.jpeg");
     background-size:cover;
     position:relative;
 }
-
 /* text css above hero image*/
-@media (max-width: 768px) {
-    .hero_title {
-      font-size: 24px;
-    }
-    .hero_desc {
-      font-size: 14px;
-    }
-  }
-
-/* make opening text responsive */
-.hero_text {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
+.hero_title {
+    font-size: 4.5rem;
+    font-family: Poppins, sans-serif;
+    color: #25242e;
 }
-
-
-  .form-box{
-    position:relative;
+.hero_desc {
+    font-size: 2rem;
+    color: #383749;
+    background-color: transparent;
+}
+.form-box{
+    position: absolute;
     width: 800px;
     height: 200px;
     background: transparent;
@@ -39,13 +31,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
-.hero_desc {
-    font-size: 2vw;
-    color: #383749;
-    background-color: transparent;
-}
-
 
 .hero-text {
     text-align: center;
