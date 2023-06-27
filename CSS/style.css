@@ -43,6 +43,21 @@
     }
   }
 
+  .form-box{
+    position:relative;
+    width: 800px;
+    height: 200px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(4.5px);
+    display: flex;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .hero_desc {
     font-size: 2vw;
     color: #383749;
