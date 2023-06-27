@@ -9,10 +9,10 @@
 /* text css above hero image*/
 @media (max-width: 768px) {
     .hero_title {
-      font-size: 24px;
+      font-size: 14px;
     }
     .hero_desc {
-      font-size: 14px;
+      font-size: 4px;
     }
   }
 
