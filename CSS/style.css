@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* hero background image */
 .bgimage {
     height:100vh;
     background: url("images/heroImage.jpeg");
     background-size:cover;
     position:relative;
 }
+
 /* text css above hero image*/
 @media (max-width: 768px) {
     .hero_title {
@@ -15,6 +15,14 @@
       font-size: 14px;
     }
   }
+
+/* make opening text responsive */
+.hero_text {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
 
 
   .form-box{
