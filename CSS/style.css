@@ -7,7 +7,7 @@
     position:relative;
 }
 /* text css above hero image*/
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
     .hero_title {
       font-size: 24px;
     }
@@ -16,32 +16,6 @@
     }
   }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .hero_title {
-      font-size: 28px;
-    }
-    .hero_desc {
-      font-size: 16px;
-    }
-  }
-
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    .hero_title {
-      font-size: 28px;
-    }
-    .hero_desc {
-      font-size: 16px;
-    }
-  }
-
-  @media (min-width: 992px) {
-    .hero_title {
-      font-size: 36px;
-    }
-    .hero_desc {
-      font-size: 20px;
-    }
-  }
 
   .form-box{
     position:relative;
