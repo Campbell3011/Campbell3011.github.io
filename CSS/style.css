@@ -7,11 +7,42 @@
     position:relative;
 }
 /* text css above hero image*/
-.hero_title {
-    font-size: 4.5vw;
-    font-family: Poppins, sans-serif;
-    color: #25242e;
-}
+@media (max-width: 575.98px) {
+    .hero_title {
+      font-size: 24px;
+    }
+    .hero_desc {
+      font-size: 14px;
+    }
+  }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero_title {
+      font-size: 28px;
+    }
+    .hero_desc {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .hero_title {
+      font-size: 28px;
+    }
+    .hero_desc {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hero_title {
+      font-size: 36px;
+    }
+    .hero_desc {
+      font-size: 20px;
+    }
+  }
+
 .hero_desc {
     font-size: 2vw;
     color: #383749;
